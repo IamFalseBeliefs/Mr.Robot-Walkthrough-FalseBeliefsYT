@@ -51,7 +51,7 @@ Script: wpscan --url http://192.168.0.166/wp-login -P sorted_fsocity.dic -U elli
 
 ![image](https://github.com/user-attachments/assets/ad93a3bd-4968-4fc1-8024-dc00ab702a55)
 
-After that I logged into the WordPress site and after some digging I found I could edit files as user elliot. I edited the 404.php file located in Appearance -> Editor on the WordPress site with the reverse-php-script from pentestmonkey (https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) and changed the IP address to match mine.
+After that I logged into the WordPress site and after some digging I found I could edit files as user elliot. I edited the 404.php file located in Appearance -> Editor on the WordPress site with the reverse-php-script from pentestmonkey (https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) and changed the IP address to match mine. (Keep in mind you are replacing eveything in the 404.php file with the script)
 
 ![Screenshot from 2024-09-25 19-25-59](https://github.com/user-attachments/assets/e0b4c368-5bc7-4631-aa7b-9f53a26e5502)
 
@@ -126,4 +126,4 @@ Script: cat /root/key-3-of-3.txt
 ![Screenshot from 2024-09-26 19-32-56](https://github.com/user-attachments/assets/963aa2a4-335e-4466-b092-5c7ed02184e3)
 
 NOTE:
-I ran into an issue where the reverse shell wasn't working. Ensure there are no firewall settings blocking you machine from being connected to. To stop the standard kali linux firewall run "sudo systemsctl stop ufw" and run "sudo systemsctl start ufw" to start it back up when you're done. Cyber Saftey is super important.
+I ran into an issue where the reverse shell wasn't working. Ensure there are no firewall settings blocking you machine from being connected to. To stop the standard kali linux firewall run "sudo systemctl stop ufw" and run "sudo systemctl start ufw" to start it back up when you're done. Cyber Saftey is super important.
