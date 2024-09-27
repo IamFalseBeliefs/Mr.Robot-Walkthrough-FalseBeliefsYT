@@ -97,7 +97,7 @@ I then cd'ed into the users directory and listed out all the files. I found a pa
 
 I used a website to decode the hash (hashes.com) and it gave me the password abcdefghijklmnopqrstuvwxyz
 
-![Screenshot from 2024-09-26 19-27-01](https://github.com/user-attachments/assets/1ed903ef-2ff2-485b-a48b-f41cbed0beaa)
+![image](https://github.com/user-attachments/assets/66d637d4-d13b-4bec-b510-f426ad9fe67b)
 
 I then SU into robot
 
